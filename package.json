@@ -1,0 +1,21 @@
+{
+  "name": "chan-crawl",
+  "version": "1.0.0",
+  "description": "Crawling script for Chan with Mincheol.",
+  "main": "index.js",
+  "scripts": {
+    "save": "npx playwright test",
+    "send": "npx ts-node src/main.ts"
+  },
+  "author": "Min <the7mincheol@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "twitter-api-v2": "^1.16.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.41.1",
+    "@types/node": "^20.11.10",
+    "ts-node": "^10.9.2"
+  }
+}

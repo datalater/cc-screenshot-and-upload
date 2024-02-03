@@ -1,0 +1,26 @@
+.DS_Store
+.idea
+.vscode
+*.local
+*.log
+.eslintcache
+coverage
+dist
+dist-ssr
+node_modules
+
+# terraform
+.terraform
+*.tfstate
+*.tfstate.*
+
+# playwright
+storageState.json
+**/playwright-report/
+/test-results/
+/playwright-report/
+/playwright/.cache/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
